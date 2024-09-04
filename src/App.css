@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+.bg-container{
+  display:flex;
+  background-image: linear-gradient(to right,#93cef2 ,#93cef2   );
+  flex-direction:column;
+  height:100vh;
+  align-items:center;
+}
+.company-name{
+  font-family: fantasy;
+  font-weight:30px;
+  font-size:32px;
+  color:black;
+  margin-left:20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom:#121188   2px solid;
+    width:80%;
+}
+.menu-items{
+  display:flex;
+  flex-direction:row;
+  margin-top:10px;
+}
+.menu-item {
+  font-size:20px;
+  font-weight: 600;
+  color: #121188 ;
+  margin-left:30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.setting-box{
+  color: #121188   ;
+  font-size:20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  display:flex;
+  flex-direction:row;
+  margin-top:10px;
+
+}
+.language-dropdown{
+  height:20px;
+  background-color: transparent;
+  border:none;
+  margin-top:23px;
+  margin-left:20px;
+  outline:none;
+}
+.home-slogan{
+  color:#121188  ;
+  font-size:80px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align:left;
+  font-weight:700;
+}
+.home-container{
+  display:flex;
+  flex-direction:row;
+  width:80%;
+  margin-top:10%;
+}
+.image{
+  height:350px;
+  width:650px;
+}
+.search-bar{
+  height:20px;
+  background-color: transparent;
+  outline:none;
+  color:#121188;
+  border:#121188 1px solid;
+}
+.search-bar {
+  height: 30px;
+  background-color: transparent;
+  outline: none;
+  color: #121188; 
+  border: 1px solid #121188; 
+  margin-top:20px;
+  margin-left:25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-bar::placeholder {
+  color: #121188;
+  opacity: 1;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.watch-button{
+  height:30px;
+  width:120px;
+  background-color:#121188;
+  border:0px;
+  border-radius:10px;
+  color:white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  outline:none;
+  box-shadow: black;
 }
